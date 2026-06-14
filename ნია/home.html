@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ნია ნიკოლაიშვილი</title>
+
+<style>
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+
+    background-image:url("bc.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;  
+    align-items:center;
+}
+
+.overlay{
+    width:100%;
+    min-height:100vh;
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(3px);
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+h1{
+    margin-top:40px;
+    color:white;
+    font-size:50px;
+
+    text-shadow:0 0 15px hotpink;
+}
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+
+    gap:25px;
+
+    margin-top:50px;
+    padding-bottom:50px;
+}
+
+.photo-box{
+    width:250px;
+    height:320px;
+
+    border-radius:25px;
+
+    overflow:hidden;
+
+    border:4px solid white;
+
+    box-shadow:0 0 20px rgba(255,105,180,0.8);
+
+    transition:0.3s;
+}
+
+.photo-box:hover{
+    transform:scale(1.05);
+}
+
+.photo-box img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="overlay">
+
+    <h1>ნია ნიკოლაიშვილი</h1>
+
+    <div class="gallery">
+
+        <div class="photo-box">
+            <img src="nia.jpg">
+        </div>
+
+        <div class="photo-box">
+            <img src="nia2.jpg">
+        </div>
+
+        <div class="photo-box">
+            <img src="nia3.jpg">
+        </div>
+
+        <div class="photo-box">
+            <img src="nia4.jpg">
+        </div>
+
+    </div>
+<h1>Top ვოისები</h1>
+
+<p>1 ვოისი</p>
+<audio controls>
+    <source src="es1.mp3" type="audio/mpeg">
+</audio>
+
+<p>2 ვოისი</p>
+<audio controls>
+    <source src="(Audio) es2.mp3" type="audio/mpeg">
+</audio>
+
+<p>3 ვოისი</p>
+<audio controls>
+    <source src="(Audio) es3.mp3" type="audio/mpeg">
+</audio>
+
+<p>4 ვოისი</p>
+<audio controls>
+    <source src="(Audio) es4.mp3" type="audio/mpeg">
+</audio>
+</div>
+<h1>Top ვიდეო</h1>
+
+<video controls width="800">
+    <source src="vax1.mp4" type="video/mp4">
+    შენი ბრაუზერი ვერ უშვებს ვიდეოს
+</video>
+<h2 style="text-align:center; color:rgb(54, 175, 245);">ნიას ინფორმაცია</h2>
+<p style="font-size: 20px; color: #d611b5; line-height: 1.6;">დაბადებულია 2009 წლის 4 სექტემბერს, უყვარს ვარჯიში და ძალიან გამხდარია,
+    ის მომავალი დიპლომატი და შესანიშნავი ახალგაზრდაა </p>
+
+</body>
+</html>
